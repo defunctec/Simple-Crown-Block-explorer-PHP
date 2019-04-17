@@ -27,7 +27,7 @@ const DB_FILE = '/var/www/databases/crown.db';
 
 // for the example explorer
 const COIN_HOME = 'https://crown.tech';
-const REFRESH_TIME = 180;
+const REFRESH_TIME = 120;
 
 // courtesy of https://github.com/aceat64/EasyBitcoin-PHP/
 require_once( 'easycrown.php' );
