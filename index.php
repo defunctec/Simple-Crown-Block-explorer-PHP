@@ -23,13 +23,11 @@ if( isset($ace['err']) || RETURN_JSON === true )
 echo <<<END
 <!DOCTYPE html>
 <!--
-    RPC Ace v0.8.0 (RPC AnyCoin Explorer)
+    (Simple Crown PHP explorer)
 
-    (c) 2014 - 2015 Robin Leffmann <djinn at stolendata dot net>
+    (c) 2019 Defunctec
 
-    https://github.com/stolendata/rpc-ace/
-
-    licensed under CC BY-NC-SA 4.0 - http://creativecommons.org/licenses/by-nc-sa/4.0/
+    https://github.com/defunctec/Simple-Crown-Block-explorer-PHP
 -->
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
