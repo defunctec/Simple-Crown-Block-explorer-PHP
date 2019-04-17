@@ -1,4 +1,4 @@
-Simple Crown PHP explorer (RPCACE)
+Simple Crown PHP explorer
 ==============================
 
 Forked from ([RPCACE](https://github.com/stolendata/rpc-ace))
@@ -11,7 +11,7 @@ Setup Notes
 1. You need ([EasyCrown](https://github.com/defunctec/EasyCrown-PHP)) to use Simple Crown PHP explorer.
 2. 
 
-Setting up RPC Ace
+Setting up PHP block explorer
 ------------------
 
 1. Download the latest Crown client https://github.com/Crowndev/crown-core/releases
