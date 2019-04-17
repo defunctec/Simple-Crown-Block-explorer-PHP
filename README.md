@@ -3,14 +3,6 @@ Simple Crown PHP explorer
 
 Forked from ([RPCACE](https://github.com/stolendata/rpc-ace))
 
-Simple block explorer for Crown.
-
-Setup Notes
------------
-
-1. You need ([EasyCrown](https://github.com/defunctec/EasyCrown-PHP)) to use Simple Crown PHP explorer.
-2. 
-
 Setting up PHP block explorer
 ------------------
 
