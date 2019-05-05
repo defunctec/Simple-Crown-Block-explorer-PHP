@@ -11,8 +11,8 @@
 
 $rpcUser = 'user';
 $rpcPass = 'pass';
-$rpcHost = '127.0.0.1';
-$rpcPort = 12345;
+$rpcHost = 'localhost';
+$rpcPort = 9341;
 
 $abort = false;
 $numAddresses = 100;
