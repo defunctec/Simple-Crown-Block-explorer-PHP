@@ -10,6 +10,8 @@ Setting up PHP block explorer
 
 1. Download the latest Crown client
 
+Download the Crown client
+
 	$ wget "https://github.com/Crowndev/crown-core/releases/download/v0.13.2.0/Crown-0.13.2.0-Linux64.zip" -O $dir/crown.zip
 
 Install
