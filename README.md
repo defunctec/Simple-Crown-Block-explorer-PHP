@@ -73,7 +73,9 @@ Make a folder for the database
 	
 	$ mkdir /var/www/databases
 
-### Use "http://YOURWEBSERVERIP/index.php" to connect to the explorer
+### Test the explorer
+
+	Use "http://YOURWEBSERVERIP/index.php" to connect to the explorer
 
 Extras
 ------
