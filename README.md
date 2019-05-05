@@ -8,7 +8,7 @@ Uses ([EasyCrown](https://github.com/defunctec/EasyCrown-PHP))
 Setting up PHP block explorer
 ------------------
 
-1. Download the latest Crown client
+### Download the latest Crown client
 
 Download the Crown client
 
@@ -44,19 +44,19 @@ Start the wallet
 
 	$ crownd
 
-2. Install required packages
+### Install required packages
 	
 	Install LAMP ([Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04))
 
 	Without this the explorer will throw a PDO error
 	$ sudo apt install php7.0-sqlite3
 
-3. Clone or download ([Crown php Explorer](https://github.com/defunctec/Simple-Crown-Block-explorer-PHP))
+### Clone or download ([Crown php Explorer](https://github.com/defunctec/Simple-Crown-Block-explorer-PHP))
 	
 	Add files to /var/www/html
 	Make sure `rpcace.php`, `easycrown.php` and `index.php` are together in your web directory.
 
-3. Edit the wallet RPC details to connect to your local Crown client.
+### Edit the wallet RPC details to connect to your local Crown client.
 
 	$ nano /var/www/html/rpcace.php
 
@@ -67,13 +67,13 @@ Example
 	const RPC_USER = 'RPCusername';
 	const RPC_PASS = 'RPCpassword';
 
-4. For databaste storage we use "/var/www/databases/crown.db", you may need to make the folder read/writeable (Permissions).
+### For databaste storage we use "/var/www/databases/crown.db", you may need to make the folder read/writeable (Permissions).
 
 Make a folder for the database
 	
 	$ mkdir /var/www/databases
 
-5. Use "http://YOURWEBSERVERIP/index.php" to connect to the explorer
+### Use "http://YOURWEBSERVERIP/index.php" to connect to the explorer
 
 Extras
 ------
