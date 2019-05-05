@@ -46,9 +46,10 @@ Start the wallet
 
 ### Install required packages
 	
-	Install LAMP ([Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04))
+Install LAMP ([Guide](https://digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04))
 
-	Without this the explorer will throw a PDO error
+Without this the explorer will throw a PDO error
+	
 	$ sudo apt install php7.0-sqlite3
 
 ### Clone or download ([Crown php Explorer](https://github.com/defunctec/Simple-Crown-Block-explorer-PHP))
